@@ -1,0 +1,146 @@
+body{
+    background-color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    font-weight: unset;   
+    margin: 0;
+    
+}
+#current{
+    border-bottom: solid 2.5px rgb(70, 134, 126)
+
+}
+#header{
+    height: 70vh;
+    padding: 2rem;
+    border-bottom: 5px solid rgb(70, 134, 126);
+    background-image: linear-gradient(rgba(100,100,100,1),rgba(100,100,100,0),rgba(100,100,100,1));
+    background-image: url("rawpixel-602145-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#span{
+    display: block;
+    color:coral;
+}
+#title{
+    font-size: 6rem;
+    font-weight: unset;
+    text-decoration: none;
+    float: left;
+    color:rgb(70, 134, 126);
+    margin: 50px 0 0 50px ;
+}
+#nav-bar{
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: rgb(248, 138, 98);
+    width:70vw ;
+    margin-left: 30vw;
+    color:white;
+    border-left: solid rgb(70, 134, 126) 6px;
+}
+#nav{
+    padding: 0px;
+    margin: 10px;
+    
+    
+}
+.nav-link{
+    display: inline;
+    padding: 20px;
+}
+a{text-decoration: unset;color:white}
+a:hover{
+    color:rgb(70, 134, 126);
+}
+
+h2{
+    color:black;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+p{
+    line-height: 1.8;
+}
+.main{
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.we-are-div{margin-bottom: 20vh;margin-top: 5vh}
+@media (max-width:600px){
+    #title,#span{
+        font-size: 4rem;
+        text-align: center;
+        float: none;
+        margin:auto;
+    }
+    #current{
+        border-bottom: solid 2px rgb(70, 134, 126)
+    
+    }
+    #header{
+    
+        background-image: linear-gradient(45deg,rgba(245,0,0, 0.2),rgba(231,121,185,0.7)rgba(245,0,0,0.2));
+    }
+    #nav-bar{
+        padding: 0;
+        width: 10vw;
+        height: 18vh;
+        position: fixed;
+        top:0;
+        right: 0;
+        display :flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        border-left: unset;
+        border-bottom: solid rgb(70, 134, 126) 5px;
+
+    }
+    .nav-link{
+        padding: 3.5px;
+        font-size: 11px;
+        display: block;
+        
+    }
+    #nav{
+        padding: 0px;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
