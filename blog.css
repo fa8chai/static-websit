@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(100,100,100);
+    background-color:rgb(200,200,200);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
     font-weight: unset;   
@@ -11,6 +11,7 @@ body{
 
 }
 #nav-bar{
+    z-index: 3;
     position: fixed;
     top: 0;
     text-align: center;
@@ -34,6 +35,11 @@ a{text-decoration: unset;color:white}
 a:hover{
     color:rgb(70, 134, 126);
 }
+.post:hover {
+    cursor: pointer;
+    border-bottom: solid 4px rgb(248, 138, 98);
+    opacity: 0.8;
+}
 
 .flex-box{
     margin: 15%;
@@ -41,13 +47,14 @@ a:hover{
     flex-direction: column;
 }
 .post{
-    width: 100%;
+    width: 90%;
     height: auto;
-    padding: 8px;
-    border-bottom: solid 2px rgb(70,70,70)
+    margin:6rem auto 5rem auto;
+    border-bottom: solid 2px rgb(83, 83, 83)
+    
 }
 p{  
-    color: white;
+    color: black;
     padding: 9px;
     float: right;
 }
